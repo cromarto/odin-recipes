@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(63, 62, 62);
+}
+
+.listed-recipes {
+    background-color: ;
+}
+
+.website-title {
+    text-align: center;
+    color: brown;
+    font-size: 69px;
+}
+
+.subtitle {
+    color: brown;
+    font-size: 55px;
+    text-align: center;
+}
+
+.description {
+    font-weight: bold;
+    font-size: 22px;
+    padding: 35px;
+}
+
+.listed-recipes,
+.ingedients-list {
+    background-color: #504b4b;
+    color: yellow;
+    font-size: 40px;
+}
+
+.steps {
+    font-size: 22px;
+}
+
+
+/* I learned how to make comments in css */
