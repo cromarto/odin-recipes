@@ -1,24 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(63, 62, 62);
-}
-
-.listed-recipes {
-    background-color: ;
 }
 
 .website-title {
     text-align: center;
     color: brown;
     font-size: 69px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.finished-plate-img {
+    display: block;
+    margin: auto;
 }
 
 .subtitle {
     color: brown;
     font-size: 55px;
     text-align: center;
+    padding: 20px;
+    margin: 40px auto 50px;
 }
 
-.description {
+p {
+    margin-bottom:-45px;
+}
+
+.description, .steps {
     font-weight: bold;
     font-size: 22px;
     padding: 35px;
@@ -29,11 +43,46 @@ body {
     background-color: #504b4b;
     color: yellow;
     font-size: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    list-style-type: none;
+    padding: 0;
 }
 
-.steps {
-    font-size: 22px;
+/* ok, I'm not happy with this. I want the buttons centered. I also want the lightgrey
+background to be expaned up and down so the buttons sit inside the section comfortably.
+I like that they're not a vertical list but I want a border around the li elements. */
+
+.ingedient-photos {
+    display: block;
+    margin: auto;
 }
 
+img {
+    margin: 7px;
+    border: 5px solid black;
 
+}
+
+li {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: lightyellow;
+    font-size: 30px;
+    color: rgb(192, 77, 77);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(192, 77, 77);
+}
 /* I learned how to make comments in css */
